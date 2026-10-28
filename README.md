@@ -75,12 +75,12 @@ Reserves directament per la pàgina web.
 
 
 
-### GymLeveling
+### [GymLeveling](https://github.com/saericdo/GymLeveling)
 Una polsera per a cada persona amb un identificador únic que serveix per entrar sortir i registrar-se en una màquina, després una lliga, amb rangs, la lliga és mensual i vas pujant llocs a mesura que guanyes punts els quals es guanyen fent la teva rutina, exercicis, reptes, Existeixen també reptes diaris i reptes setmanals, els reptes diaris et donarien el doble de punts i el setmanal el doble que el diari, El repte diari consistiria en una màquina segons la teva rutina, i el repte setmanal consistiria en una rutina d'un dia que pots fer cada setmana com per exemple un full body o fer cama full amb màquines que no s'usen, aquests reptes et donarien punts de lliga (els punts de lliga serveixen per pujar rànquing en lliga) i el setmanal et donaria punts de lliga i monedes( les monedes serveixen per quan en acumulis les suficients gastar-les en descomptes, productes, merchandising, etc.) cada dia si completes la teva rutina et donarien punts de lliga i monedes. Per a què serveix la lliga? Per incentivar la gent a anar al gym, en la qual si quedes en determinats llocs rebis diferents recompenses ex: top 1 títol exclusiu, -75% de descompte aquest mes, lot de proteïna i creatina i per exemple unes 50 monedes (les quantitats encara són indefinides), top 2 títol exclusiu, 25 monedes (les quantitats encara són indefinides), -50% de descompte aquest mes, lot de proteïna i creatina, top 3 títol exclusiu,15 monedes (les quantitats encara són indefinides), -25% de descompte aquest mes, lot de proteïna i creatina, top 4-10,10 monedes (les quantitats encara són indefinides). Important: els punts de lliga i les monedes de lliga són diferents (els punts de lliga es resetegen quan es reseteja la lliga i només serveixen per pujar llocs i guanyar les recompenses de lliga, després hi haurà experiència que et pugi de rang per fer exercicis i això un sistema normal d'experiència vaja). Finalment tenim una idea d'un sistema de ràtxa, en aquest hi ha dues diferents ràtxes, la primera ràtxa és de lliga, la qual es reseteja quan la lliga (aquesta no es reinicia quan falles un dia de rutina simplement aquest dia no compta i es queda en la mateixa ràtxa), (més ràtxa = més punts de lliga) l'altra ràtxa és una ràtxa general i aquesta es reseteja quan fallis un dia de la teva rutina (més ràtxa general = més monedes). Misions anuals i addicionals que apareixeran cada cert temps(les addicionals), les anuals consistiran en barbaritats (assisteix 100 dies al gimnàs o fes no sé quants km, etc.). Les addicionals en coses casuals (convida un amic amb aquest codi). Conseqüències: no portes polsera = no punts Cada màquina tindrà un sensor per tal que juntament amb la polsera detecti repeticions i pes, quantes voltes has fet a la bici, quants km i en quin temps has corregut a la cinta (tot això, evidentment, amb bona tècnica que serà detectada amb les càmeres… que aniran cap a una base de dades i un servidor que les recolliran i les posaran al rànquing, la lliga, etc. podràs tenir llista d'amics, lliga entre amics, lliga d'equips i la lliga global. Cada màquina tindrà el seu propi rànquing on sortiran els que més pes aixequin i més repeticions facin. La polsera també serà el mètode amb el qual pagaràs amb les monedes de l'aplicació, o sigui, tu t'apropes a la màquina expenedora i agafes un aquarius que val 50 monedes, doncs apropes la polsera, i pagues les 50 monedes.
 
 Els productes que podràs aconseguir amb les monedes seran, begudes a la màquina expenedora, merchandising, proteïna, creatina, productes de gimnàs…
 
-### IhateSpam
+### [IhateSpam](https://github.com/IamBrosky/ihatespam)
 IHateSpam és un projecte d'una IA que s'encarrega de l'spam que us arriba, tant trucades i SMS com correus. Quan entra alguna cosa, la IA mira el número o el correu i decideix si és spam. Si no ho és, t'hi arriba com sempre. Si ho és, en comptes de bloquejar-lo li contesta ella sola.
 
 Tu tries com contesta amb un nivell de l'1 al 10. Als nivells baixos és educada però els fa perdre el temps, als mitjans els vacil·la i els segueix el rotllo, i als alts es posa vora i els insulta.
@@ -136,6 +136,96 @@ El nostre objectiu és aconseguir un sistema segur, fàcil d'utilitzar, fiable i
 
 ### MyBread
 
+#### Context
+
+L’idea d’aquest projecte es poder digitalitzar un Fleca. Volem crear una tecnología que faciliti la feina dels treballadors, millori l'experiència dels clients i ajudi a vendre més evitant el desperdici d’aliments. 
+
+Actualment en una fleca tradicional podem trobar diferent problemes relacionats amb l’organització de les comandes, el control dels productes, l’atenció al client i la gestió de les vendes. 
+
+##### Problemes que volem solucionar 
+
+Farem una proposta ràpida de problemes i solucions que podem donar
+
+**Cues al comprar el pa** → Comandes anticipades i recollida, poden per exemple programar el pa cada dia a la mateixa hora
+
+**Control de stock** → Crear un cataleg amb disponibilitat dels productes  
+n  
+**Es tira el pa a final del dia** → Ofertes d’última hora
+
+**Les comandes van amb paper i boli** → Fer un sistema centralitzat amb la gestió de les comandes, per tindre un ordre
+
+**S’ha de controlar l’inventari manualment** → Una gestió digital de l'estoc
+
+**Clients que compren sempre el mateix** → Un sistema amb “comandes preferides” i recurrents, tenir un perfil dels clients amb registre de què demanen i a quines hores. També pot ajudar a fer més d’aquell producte, a posar més personal a determinades hores o a anar més ràpid alhora d’atendre
+
+**Pot costar analitzar les vendes que es fan** → Un panell amb estadístiques, com a l’anterior, es pot ajudar a fer estadístiques sobre que compren més, a quines hores…
+
+Amb MyBread volem solucionar aquest problemes amb una plataforma digital que conecti amb els clients i els treballadors i faciliti la gestió del negoci. 
+
+
+
+
+#### Abast
+
+##### Que proposem
+
+**Una botiga online:** 
+
+Proposem fer una botiga online, tant web com aplicació que aparegui un catàleg amb fotografíes dels productes, i on el client (i preparat també per a la gent gran, que son els principals clients del pà a primera hora) puguin de manera intuitiva el pa, l’hora de recollida i si pagar online o a botiga. 
+
+**Gestió interna:** 
+
+Fer un panell privat per als treballadors. Aquest panell estaria posat als ordinadors de la fleca, i permetria als treballadors veure comandes pendents, control·lar les existències restants, actualitzar els productes i consultar les vendes dels dies. 
+
+**Productes restants:** 
+
+A final de dia, els productes que no s’haguin venut, es poden vendre amb descompte, amb packs promoció, o ofertas d’última hora. Aixó es un programa qui et diu quins productes baixar i a quin preu. Pot arribar a estar conectat amb les estadístiques per a saber els productes que s’acaben de vendre a última hora i els que no, i baixar el necessari els que calguin. 
+
+**Fidelització:** 
+
+A la mateixa web / aplicació per a la botiga online, es pot afegir un programa de punts, cupons, descomptes al dia d’aniversari i recompenses per a clients habituals.
+
+**Estadístiques:** 
+
+Tenir estadístiques de tot el que passi a la botiga. Poder veure les ventes del dia, quins productes s’han venut més, les hores de màxima demanda, i per exemple els productes que s’han perdut per fer de més. 
+
+**Recollida ràpida**: 
+
+El client quan fa la reserva del pa per exemple reb un codi QR, per quan vagi a la botiga a recollir la comanda, únicament calgui escanejar el codi, i treure la bossa préviament preparada, per anar molt més ràpid. 
+
+##### Objectius 
+
+Els nostres principals objectius son: 
+
+* Digitalitzar la gestió d’una panaderia   
+* Reduir els errors humans en les comandes i en l’inventari  
+* Millorar l'experiència de compra per al client  
+* Disminuir el desperdici d’aliments amb promocions al final de dia  
+* Modernitzar i reinventar un nou negoci de fleca, més modern i fàcil. 
+
+##### Arquitectura del sistema
+
+[https\://www\.odoo.com/ca\_ES](https://www.odoo.com/ca_ES)
+
+S’ha de tindre 2 web, una al núvol per tota la part frontend i una en local per a tota la part backend, que es connectin. 
+
+**FRONTEND \- Web per als clients**
+
+HTML CSS
+
+Aquesta part permetrà als clients consultar els productes, fer comandes online i gestionar les seves reserves
+
+**BACKEND- Logística del projecte**
+
+Amb això farem la gestió interna, les comandes i la connexió amb la base de dades. 
+
+**Base de dades** 
+
+MySQL: Clients, Productes, Comandes i Stock
+
+També s’ha d’afegir seguretat, copias de seguretat diàries, protegir les contrasenyes, i un sistema de permisos per als treballadors i l’administrador.  
+
+
 
 ### OfAI
 
@@ -190,4 +280,15 @@ de quin problema pot estar patint el pacient.
 
 Aquesta és la finalitat del nostre projecte.
 
-### LucasProject
+### UNDERLABS
+El projecte consisteix en el desenvolupament d’una plataforma tecnològica orientada al sector dels videojocs, dissenyada per oferir una solució integrada per a l’execució, la gestió i l’accés a continguts interactius de diferents entorns digitals.
+El sistema disposarà d’un entorn de programari propi, compatible amb diferents formats i sistemes de distribució de videojocs, tant físics com digitals, així com amb serveis i comptes vinculats a plataformes informàtiques externes.
+
+La comercialització dels productes i serveis es durà a terme mitjançant un portal web oficial, des del qual els usuaris podran adquirir els components físics del sistema i descarregar les solucions de programari disponibles.
+Paral·lelament, es desplegarà una infraestructura de servidors destinada a proporcionar serveis de connectivitat, allotjament de sessions multijugador i gestió d’entorns de joc en línia.
+
+Addicionalment, el projecte incorporarà una línia pròpia de perifèrics especialitzats, centrada inicialment en el disseny i la comercialització de dispositius de control adaptats a les característiques de la plataforma.
+Aquests productes s’integraran dins del catàleg de la botiga en línia, amb l’objectiu d’ampliar l’oferta de solucions disponibles i garantir una major integració entre els diferents components del sistema.
+
+En conjunt, la iniciativa pretén establir un ecosistema tecnològic integral dins de l’àmbit dels videojocs, combinant desenvolupament de programari, solucions de maquinari, serveis d’infraestructura en xarxa i perifèrics especialitzats en una única plataforma de distribució i accés.
+
